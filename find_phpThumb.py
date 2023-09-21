@@ -99,7 +99,6 @@ try:
                      colored("Version", 'white', 'on_grey', attrs=['bold']),
                      colored("vulnerability", 'white', 'on_grey', attrs=['bold'])]
 
-    # Generate the table using tabulate
     table = tabulate(table_data, headers=table_headers, tablefmt="grid", stralign="center")
 
     print(table)
