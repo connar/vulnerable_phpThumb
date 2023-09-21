@@ -6,8 +6,8 @@ phpThumb is basically a PHP script that provides image resizing, cropping, and m
 
 # Vulns
 Turns out specific versions of this php script are vulnerable to RCE and SSRF. Specifically:
-- versions ranging from 1.7.9 and bellow are vulnerable to **RCE**.
-- version 1.7.12 is vulnerable to **SSRF**.
+- versions ranging from 1.7.9 and bellow are vulnerable to **RCE** (CVE-2010-1598).
+- version 1.7.12 is vulnerable to **SSRF** (CVE-2013-6919).
 
 # Output example
 Running the script we get a table with some of the domains found, their phpThumb versions (if found) and the vulnerability that they probably have:
